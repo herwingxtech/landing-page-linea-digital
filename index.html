@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo Linea Digital</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+  <!-- Header Component -->
+  <header class="bg-[#002A5C] text-white">
+    <!-- Top Bar -->
+    <div class="container mx-auto px-4">
+      <nav class="flex flex-col lg:flex-row lg:items-center lg:justify-between py-4">
+        <!-- Logo Section -->
+        <div class="flex items-center justify-center lg:justify-start mb-4 lg:mb-0">
+          <div class="flex items-center">
+            <img src="./assets/logo-white.png" class="block w-32 h-10" alt="Telcel Logo" />
+            <div class="w-1 h-10 bg-white mx-4"></div>
+            <div class="text-2xl italic font-bold">telcel</div>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="flex flex-col lg:flex-row items-center space-y-2 lg:space-y-0 lg:space-x-8">
+          <a href="/" class="text-white hover:text-blue-200 transition-colors">
+            Inicio
+          </a>
+          <a href="/cotiza" class="text-white hover:text-blue-200 transition-colors">
+            Cotiza
+          </a>
+          <a href="/quienes-somos" class="text-white hover:text-blue-200 transition-colors">
+            Quienes Somos
+          </a>
+          <a href="/contactanos" class="text-white hover:text-blue-200 transition-colors">
+            Contáctanos
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Distribuidor Autorizado Text -->
+    <div class="bg-[#002A5C] text-center py-2">
+      <p class="text-sm uppercase tracking-wider">Distribuidor Autorizado</p>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden bg-gradient-to-r from-[#002A5C] to-[#002A5C]">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-10">
+      <!--     <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\" 60\" height=\"60\"
+        viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg
+        fill=\"%23ffffff\" fill-opacity=\"1\"%3E%3Cpath d=\"M36
+        34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6
+        4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');">
+      </div> -->
+    </div>
+
+    <div class="container mx-auto px-4 py-16 lg:py-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <!-- Text Content -->
+        <div class="text-white z-10 text-center lg:text-left">
+          <h1 class="text-4xl lg:text-5xl font-bold mb-6">
+            Soluciones en Telefonía Celular
+          </h1>
+          <p class="text-lg lg:text-xl mb-8 text-gray-200">
+            Tienda especializada en telefonía celular Telcel, lo último en Smartphones, sistema de prepago, planes
+            Telcel, Internet móvil y servicios empresariales.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a href="/cotiza"
+              class="inline-block bg-white text-[#002A5C] px-8 py-3 rounded-full font-semibold hover:bg-blue-100 transition-colors">
+              Cotizar Ahora
+            </a>
+            <a href="/contactanos"
+              class="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition-colors">
+              Contáctanos
+            </a>
+          </div>
+        </div>
+
+        <!-- Image Section -->
+        <div class="relative z-10 hidden lg:block">
+          <div class="relative">
+            <!-- Decorative Elements -->
+            <div class="absolute -top-6 -right-6 w-24 h-24 bg-blue-400/20 rounded-full blur-xl"></div>
+            <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-600/20 rounded-full blur-xl"></div>
+
+            <!-- Main Image -->
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iQze41VxD5qCtINmP42JATcsK8I93t.png"
+              alt="Profesional de negocios usando un smartphone"
+              class="rounded-lg shadow-2xl w-full max-w-lg mx-auto" />
+          </div>
+
+          <!-- Logo Bar -->
+          <div class="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md rounded-lg p-4 mx-4 mb-4">
+            <div class="flex items-center justify-center space-x-4">
+              <img src="/placeholder.svg?height=30&width=120" alt="Celular Express" class="h-8" />
+              <div class="w-px h-8 bg-white/20"></div>
+              <img src="/placeholder.svg?height=30&width=120" alt="Telcel" class="h-8" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Wave -->
+    <div class="absolute bottom-[-1px] left-0 right-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" fill="#ffffff">
+        <path class="stroke-none"
+        d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z">
+      </path>
+      </svg>
+    </div>
+  </section>
+  <!-- Features Section -->
+  <section class="py-16 lg:py-24 overflow-hidden">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Text Content -->
+        <div class="text-[#002A5C] space-y-6">
+          <h2 class="text-4xl lg:text-5xl font-bold leading-tight">
+            Distribuidor Autorizado Telcel
+          </h2>
+          <p class="text-lg text-[#002A5C] leading-relaxed">
+            LInea Digital es un distribuidor autorizado Telcel en México, contamos con los equipos más modernos, además de
+            los mejores planes Telcel que te mantendrán conectado 24/7. Tenemos presencia en varios estados de la
+            república y todos nuestros envíos están garantizados, además puedes visitar nuestras sucursales; contáctanos
+            al 55 54 22 95 00 y aprovecha nuestras promociones de temporada.
+          </p>
+          <div class="pt-4">
+            <a href="/promociones"
+              class="inline-block bg-[#002A5C] hover:bg-blue-500 text-white px-8 py-3 rounded-full font-semibold transition-colors">
+              Disfruta nuestras promociones
+            </a>
+          </div>
+        </div>
+
+        <!-- Image Grid -->
+        <div class="relative">
+          <!-- Decorative Background Elements -->
+          <div class="absolute -top-10 -right-10 w-40 h-40 bg-blue-400/20 rounded-full blur-2xl"></div>
+          <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-600/20 rounded-full blur-2xl"></div>
+
+          <!-- Image Grid -->
+          <div class="grid grid-cols-6 gap-4 relative z-10">
+            <!-- Large Image -->
+            <div class="col-span-4 row-span-2">
+              <div class="relative h-full rounded-2xl overflow-hidden bg-orange-400">
+                <img src="/placeholder.svg?height=600&width=400" alt="Smartphone moderno"
+                  class="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <!-- Small Image Top -->
+            <div class="col-span-2 row-span-1">
+              <div class="relative h-full rounded-2xl overflow-hidden bg-yellow-400">
+                <img src="/placeholder.svg?height=300&width=200" alt="Persona escuchando música"
+                  class="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <!-- Small Image Bottom -->
+            <div class="col-span-2 row-span-1">
+              <div class="relative h-full rounded-2xl overflow-hidden bg-blue-400">
+                <img src="/placeholder.svg?height=300&width=200" alt="Persona usando smartphone"
+                  class="w-full h-full object-cover" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Elements -->
+          <div class="absolute -bottom-6 -right-6 bg-white/10 backdrop-blur-md rounded-2xl p-4 shadow-lg">
+            <div class="flex items-center space-x-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd" />
+              </svg>
+              <span class="text-white text-sm font-medium">Envíos Garantizados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Wave -->
+<!--     <div class="absolute bottom-0 left-0 right-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" fill="#ffffff">
+        <path
+          d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"
+          stroke="none">
+        </path>
+      </svg>
+    </div> -->
+  </section>
+
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <!-- Section Header -->
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-deepblue mb-2">Sucursales</h2>
+        <a href="/sucursales" class="text-blue-500 hover:text-blue-700 text-sm">
+          -->Lista Completa Aquí <-- </a>
+      </div>
+
+      <!-- Branches Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <!-- City Shop -->
+        <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <h3 class="text-xl font-bold text-deepblue">City Shop</h3>
+            <span class="text-gray-500 text-sm">COL. DEL VALLE</span>
+          </div>
+          <p class="text-gray-600 text-sm mb-4">
+            Ubicada en la segunda planta de la Plaza City Shop Del Valle sobre la Avenida Felix Cuevas 374 local S-09.
+            Horario de atención de Lunes a Domingo de 11:00 hrs. a 21:00 hrs.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-center text-gray-600">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span class="text-sm">Tel: 5559-3712</span>
+            </div>
+            <div class="flex items-center text-gray-600">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <a href="mailto:gerencia.cityshop@cencel.com.mx" class="text-sm text-blue-500 hover:text-blue-700">
+                gerencia.cityshop@cencel.com.mx
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Patio Santa Fe -->
+        <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <h3 class="text-xl font-bold text-deepblue">Patio Santa Fe</h3>
+            <span class="text-gray-500 text-sm">CUAJIMALPA</span>
+          </div>
+          <p class="text-gray-600 text-sm mb-4">
+            Ubicada en Av. Vasco de Quiroga No. 200 Zedec Santa Fe, CdMx. Servicio especializado a clientes, centro de
+            pago Telcel con atención de Lunes a Domingo de 11:00 a 20:00 horas.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-center text-gray-600">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span class="text-sm">Tel: 554192962</span>
+            </div>
+            <div class="flex items-center text-gray-600">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <a href="mailto:gerencia.ferreria@cencel.com.mx" class="text-sm text-blue-500 hover:text-blue-700">
+                gerencia.ferreria@cencel.com.mx
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plaza Cibeles -->
+        <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <h3 class="text-xl font-bold text-deepblue">Plaza Cibeles</h3>
+            <span class="text-gray-500 text-sm">CUERNAVACA</span>
+          </div>
+          <p class="text-gray-600 text-sm mb-4">
+            Ubicada al interior de Plaza Cibeles sobre la Avenida Cuahnahuac 1932 local L-05 en la ciudad de Cuernavaca
+            con atención a nuestros clientes de Lunes a Viernes de 11:00 hrs. a 21:00 hrs.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-center text-gray-600">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span class="text-sm">Tel: 777 688 5691</span>
+            </div>
+            <div class="flex items-center text-gray-600">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <a href="mailto:gerencia.cibeles@cencel.com.mx" class="text-sm text-blue-500 hover:text-blue-700">
+                gerencia.cibeles@cencel.com.mx
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map Section -->
+      <div class="rounded-lg overflow-hidden shadow-lg">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.4261798778814!2d-99.17183248469358!3d19.39399898691054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff7e22ce9f29%3A0x3c3c2c4c9c8d0b0a!2sAv.%20F%C3%A9lix%20Cuevas%20374%2C%20Col%20del%20Valle%20Sur%2C%20Benito%20Ju%C3%A1rez%2C%2003100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1629308075843!5m2!1ses!2smx"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="w-full"></iframe>
+      </div>
+    </div>
+  </section>
+    <!-- Footer Component -->
+    <footer class="bg-[#002A5C] text-white">
+      <!-- Logo Section -->
+      <div class="container mx-auto px-4 pt-10">
+        <div class="flex flex-col items-center md:items-start mb-8">
+          <div class="flex items-center mb-2">
+            <div class="text-2xl font-bold mr-4">CELEX.COM</div>
+            <div class="w-px h-10 bg-white mx-4"></div>
+            <div class="text-2xl italic font-light">telcel</div>
+          </div>
+          <div class="text-sm uppercase tracking-wider">DISTRIBUIDOR AUTORIZADO</div>
+        </div>
+
+        <!-- Main Footer Content -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-8">
+          <!-- Company Description -->
+          <div class="md:col-span-1 lg:col-span-1">
+            <h2 class="text-lg font-bold mb-4">CELULAR EXPRESS / CELEX.COM</h2>
+            <p class="text-sm leading-relaxed">
+              Somos una empresa líder en la comercialización de soluciones innovadoras en comunicación inalámbrica, con
+              un enfoque especializado en la telefonía celular y la venta de accesorios tecnológicos de alta calidad.
+              Como distribuidor autorizado de Telcel, nos destacamos por ser la única empresa con una presencia
+              estratégica en toda la República Mexicana, lo que nos permite ofrecer una cobertura nacional y un servicio
+              personalizado a nuestros clientes.
+            </p>
+          </div>
+
+          <!-- About Us Links -->
+          <div class="md:col-span-1 lg:col-span-1">
+            <h2 class="text-lg font-bold mb-4">NOSOTROS</h2>
+            <ul class="space-y-2">
+              <li>
+                <a href="/quienes-somos" class="text-sm hover:underline">
+                  ¿Quiénes somos?
+                </a>
+              </li>
+              <li>
+                <a href="/sucursales" class="text-sm hover:underline">
+                  Sucursales
+                </a>
+              </li>
+              <li>
+                <a href="/conexion-celex" class="text-sm hover:underline">
+                  Conexión Celex
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- More Information Links -->
+          <div class="md:col-span-1 lg:col-span-1">
+            <h2 class="text-lg font-bold mb-4">MÁS INFORMACIÓN</h2>
+            <ul class="space-y-2">
+              <li>
+                <a href="/aviso-de-privacidad" class="text-sm hover:underline">
+                  Aviso de privacidad
+                </a>
+              </li>
+              <li>
+                <a href="/faq" class="text-sm hover:underline">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="md:col-span-1 lg:col-span-1">
+            <h2 class="text-lg font-bold mb-4">CONTACTO</h2>
+            <ul class="space-y-2">
+              <li class="text-sm">
+                <a href="mailto:ecommerce@celex.com" class="hover:underline">
+                  ecommerce@celex.com
+                </a>
+              </li>
+              <li class="text-sm">CDMX Y AREA METROPOLITANA</li>
+              <li class="text-sm">55 54 22 95 00 / 55 54 24 70 95</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="border-t border-bluelight py-6">
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+              <span class="mr-4 text-sm">SÍGUENOS:</span>
+              <div class="flex space-x-4">
+                <!-- Social Media Icons -->
+                <a href="https://facebook.com" aria-label="Facebook" class="hover:text-blue-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                </a>
+                <a href="https://instagram.com" aria-label="Instagram" class="hover:text-pink-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+                <a href="https://youtube.com" aria-label="YouTube" class="hover:text-red-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                    </path>
+                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                  </svg>
+                </a>
+                <a href="https://tiktok.com" aria-label="TikTok" class="hover:text-gray-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                    <path d="M14.5 4a4 4 0 0 0-1 7.87V15a7 7 0 1 1-7-7h2.13A4 4 0 0 0 14.5 4z"></path>
+                  </svg>
+                </a>
+                <a href="https://twitter.com" aria-label="Twitter" class="hover:text-blue-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                    </path>
+                  </svg>
+                </a>
+                <a href="https://threads.net" aria-label="Threads" class="hover:text-gray-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 6v12"></path>
+                    <path d="M8 10h8"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="text-sm">
+              Made With <span class="text-blue-400">❤️</span> by
+              <a href="https://proactivocommerce.com" class="hover:underline">
+                Proactivo Commerce
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll to Top Button -->
+      <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        class="fixed bottom-6 right-6 bg-white text-deepblue p-3 rounded-full shadow-lg hover:bg-gray-200 transition-colors z-10"
+        aria-label="Scroll to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+      </button>
+
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/5215554229500"
+        class="fixed bottom-20 right-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors z-10"
+        aria-label="Contact us on WhatsApp" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+          </path>
+        </svg>
+      </a>
+    </footer>
+  </div>
+</body>
+
+</html>
