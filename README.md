@@ -30,7 +30,20 @@ Este proyecto es una página de aterrizaje para Línea Digital, diseñada para a
     npm install -D tailwindcss
     npx tailwindcss init
     ```
-4. Abre `index.html` en tu navegador preferido.
+4. Instala Tailwind CSS y @tailwindcss/cli:
+    ```bash
+    npm install tailwindcss @tailwindcss/cli
+    ```
+5. Importa Tailwind en tu archivo CSS principal:
+    ```css
+    /* src/input.css */
+    @import "tailwindcss";
+    ```
+6. Inicia el proceso de construcción de Tailwind CLI:
+    ```bash
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+    ```
+7. Abre `index.html` en tu navegador preferido.
 
 ## Uso
 Describe cómo utilizar la página de aterrizaje, incluyendo cualquier configuración necesaria.
