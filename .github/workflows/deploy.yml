@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Rama de despliegue
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # Use Node.js version 16.x
+          node-version: '16'
 
       - name: Install dependencies
         run: npm install
@@ -24,12 +24,18 @@ jobs:
       - name: Build CSS with Tailwind
         run: npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css
 
-      - name: Build project
-        run: npm run build
+      - name: Copy all files to deploy directory
+        run: |
+          mkdir -p ./dist  # Crea el directorio de despliegue si no existe
+          cp -r ./assets ./dist/  # Copia la carpeta de assets
+          cp -r ./src ./dist/  # Copia la carpeta src, si es necesario
+          cp -r ./views ./dist/  # Copia la carpeta de views
+          cp ./index.html ./dist/  # Copia el archivo index.html
+          cp ./README.md ./dist/  # Copia el README, si lo deseas incluir
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
+          publish_dir: ./dist  # Publicamos todo desde ./dist
+          publish_branch: gh-pages  # Rama de GitHub Pages
