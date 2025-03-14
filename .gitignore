@@ -14,7 +14,7 @@ jspm_packages/
 # Build directories
 dist/
 build/
-
+src/output.css
 # Temporary files
 *.tmp
 *.temp
