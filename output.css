@@ -1035,9 +1035,6 @@
     }
   }
 }
-:root {
-  --color-linea: #002A5C;
-}
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
